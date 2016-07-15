@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=" Date : "
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/Date"
+
+
+            android:layout_marginBottom="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="test"
+            android:id="@+id/timeStampD"
+            android:layout_toRightOf="@+id/Date"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=" Time : "
+            android:layout_toLeftOf="@+id/timeStampH"
+
+
+            android:id="@+id/Time"
+
+
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="test"
+            android:id="@+id/timeStampH"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+
+
+
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Message : "
+        android:layout_marginLeft="12dp"
+        android:id="@+id/msg"
+
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="test"
+        android:id="@+id/message"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginLeft="12dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
